@@ -97,6 +97,7 @@ var VRTCamera = requireNativeComponent(
       canDrag: true,
       canPinch: true,
       canRotate: true,
+      // canRotate: false, ?
       onPinchViro: true,
       onRotateViro: true,
       onHoverViro:true,
