@@ -130,7 +130,7 @@ Join our Slack group [here](https://join.slack.com/t/virodevelopers/shared_invit
 ### [Figment AR (Complete Open Source App)](https://github.com/viromedia/figment-ar)
 A repository containing the entire source code, built using ViroReact and React Native, for Viro Media's award winning Figment AR App. Available on [Google Play](https://play.google.com/store/apps/details?id=com.viro.figment) and [App Store](https://itunes.apple.com/us/app/figment-ar/id1270018902?mt=8).
 
-<a href="https://github.com/viromedia/figment-ar"><img src="code-samples/screenshots/figment_1.png" width="200"/> <img src="code-samples/screenshots/figment_2.png" width="200"/> <img src="code-samples/screenshots/figment_3.png" width="200"/> <img src="code-samples/screenshots/figment_4.png" width="200"/></a>
+<a href="https://github.com/viromedia/figment-ar"><img src="https://raw.githubusercontent.com/viromedia/viro/master/code-samples/screenshots/figment_1.png" width="200"/> <img src="https://raw.githubusercontent.com/viromedia/viro/master/code-samples/screenshots/figment_2.png" width="200"/> <img src="https://raw.githubusercontent.com/viromedia/viro/master/code-samples/screenshots/figment_3.png" width="200"/> <img src="https://raw.githubusercontent.com/viromedia/viro/master/code-samples/screenshots/figment_4.png" width="200"/></a>
 
 #### Download complete source at https://github.com/viromedia/figment-ar
 

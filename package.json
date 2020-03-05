@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MartinCura/viro.git"
+    "url": "git://github.com/MartinCura/viro.git"
   }
 }
