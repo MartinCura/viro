@@ -24,4 +24,4 @@ echo '== Copying build artifacts to the lib directory =='
 rm android/react_viro/*.aar
 cp android/viro_bridge/build/outputs/aar/viro_bridge-release.aar android/react_viro/react_viro-release.aar
 
-npm pack
+###npm pack

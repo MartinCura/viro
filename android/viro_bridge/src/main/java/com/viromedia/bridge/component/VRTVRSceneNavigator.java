@@ -25,6 +25,7 @@ import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 
 import com.facebook.react.bridge.ReactContext;
 import com.viro.core.ViroViewGVR;
@@ -144,6 +145,12 @@ public class VRTVRSceneNavigator extends VRT3DSceneNavigator {
             // running in non-VR mode. Copied from citychallenge/viro's fork.
             Activity activity = (Activity) mViroView.getContext();
             mViroView.setVRModeEnabled(mVrMode);
+            Log.d("VRTVRSceneNavigator", Integer.toString(mPreferredOrientation));
+            if (mVrMode) {
+              Log.d("VRTVRSceneNavigator", "mVrMode ON");
+            } else {
+              Log.d("VRTVRSceneNavigator", "mVrMode off");
+            }
             activity.setRequestedOrientation(mVrMode ? ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE : mPreferredOrientation);
             mNeedsSetVrMode = false;
         }
@@ -153,6 +160,10 @@ public class VRTVRSceneNavigator extends VRT3DSceneNavigator {
         private WeakReference<VRTVRSceneNavigator> mSceneNavWeak;
         public OnGVRExitListener(VRTVRSceneNavigator sceneNav) {
             mSceneNavWeak = new WeakReference<VRTVRSceneNavigator>(sceneNav);
+
+            Activity activity = (Activity) sceneNav.getContext();
+            Log.d("VRTVRSceneNavigator", "OnGvrExitListener");
+            activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_BEHIND);
         }
 
         @Override
