@@ -25,11 +25,12 @@
     "bin",
     "LICENSE"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "dependencies": {
     "prop-types": "^15.5.10"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
